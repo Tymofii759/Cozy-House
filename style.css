@@ -3,8 +3,9 @@ body {
   height: 100vh;
   background: url(background.jpg);
   background-position: center center;
-  /* background: url(puppy.png) no-repeat fixed 90% 120%; */
   background-size: cover;
+  padding-left: 25 px;
+  padding-right: 25 px;
 }
 .header {
   display: flex;
@@ -26,19 +27,17 @@ body {
   margin-right: 30px;
 }
 .header_menu_item:last-child {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .header_text_index_top {
   font-size: 35pt;
   color: darksalmon;
-  padding-top: 20%;
-  padding-left: 0%;
-  margin-left: 25px;
+  padding-top: 60px;
+  padding-left: 0px;
+  padding-bottom: 10 px;
 }
 .header_text_index_bottom {
   color: cornsilk;
-  padding-top: 5%;
-  margin-left: 25px;
   font-size: 14pt;
 }
 .header_menu_item_link {
@@ -55,11 +54,10 @@ body {
 .main_image {
   width: 550px;
   height: 600px;
-  margin-right: 100px;
 }
 .main_text {
   color: cornsilk;
-  width: 400px;
+
   font-size: 14pt;
 }
 .main_title {
@@ -70,13 +68,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 25px;
 }
 .main_text_wrapper {
   display: flex;
   justify-content: left;
   align-items: flex-start;
   flex-direction: column;
+  width: 600 px;
 }
 .button {
   text-decoration: none;
