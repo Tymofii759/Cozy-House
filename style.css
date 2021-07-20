@@ -4,8 +4,8 @@ body {
   background: url(background.jpg);
   background-position: center center;
   background-size: cover;
-  padding-left: 25 px;
-  padding-right: 25 px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .header {
   display: flex;
